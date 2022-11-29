@@ -1,0 +1,6 @@
+.answer__block {
+    width: 48%;
+    background-color: var(--color-answer-block);
+    border-radius: 10px;
+    padding: 20px;
+  }

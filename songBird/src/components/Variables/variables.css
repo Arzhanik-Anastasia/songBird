@@ -1,0 +1,40 @@
+.variable__birds {
+    background-color:var(--color-active-round);
+    width: 45%;
+    border-radius: 10px;
+    height: 100%;
+  }
+
+.variable__birds-items {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 0;
+    border-bottom: 1px solid #27395a;
+    color: black;
+    padding-left: 30px;
+    cursor: pointer;
+  }
+  .variable__birds-items:last-child {
+    border: none;
+  }
+  .li-icon {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.466);
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .li-icon.right {
+    background-color: var(--correct-answer);
+  }
+  .li-icon.wrong {
+    background-color: var(--wrong-answer);
+  }
+
+  @media(max-width: 600px) {
+    .variable__birds-items{
+      padding-left: 10px;
+    }
+  }
+  

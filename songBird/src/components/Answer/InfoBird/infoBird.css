@@ -1,0 +1,48 @@
+.bird{
+    width: 50%;
+}
+.bird__image {
+    display: block;
+    width: 200px;
+    height: 155px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.bird__info {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.bird__info h4, .bird__info div  {
+    margin-bottom: 5px;
+}
+
+.bird__top {
+    display: flex;
+    gap:20px;
+}
+
+.bird__audio {
+    display: block;
+    width: 100%;
+}
+.bird__description {
+    margin-top: 10px;
+}
+@media(max-width: 1100px) {
+    .bird__top {
+        flex-direction: column;
+        align-items:center;
+    }
+}
+
+
+@media(max-width: 600px) {
+    .bird__info {
+        margin: 10px;
+        text-align: center;
+    }
+    .bird__image {
+        width: 150px;
+        height: 105px;
+    }
+}

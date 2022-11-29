@@ -1,0 +1,19 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.bird__item{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    gap: 20px;
+    background-color:#7f9f83;
+}
+.bird__item .bird__info h4 {
+    margin-bottom: 15px;
+}

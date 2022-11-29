@@ -1,0 +1,26 @@
+{
+  "startPage": {
+    "quiz": "Quiz song",
+    "description":"Songbird - is an interactive musical quiz for recognizing birds by their voices. Press Start and ave some fun!",
+    "language":"Choose language",
+    "button":"Start"
+  },
+  "gameField": {
+    "player": "Listen to the player. Choose the correct translation",
+    "button": "Next level",
+    "newGame": "Start over",
+    "score": " Score:   "
+  },
+  "navigation": {
+    "home": "Home",
+    "game": "Game",
+    "gallery": "Gallery",
+    "result": "Results"
+  },
+  "results": {
+    "congr": "Congratulations!",
+    "res": "You passed the quiz and scored ",
+    "out": " out of 30 possible points",
+    "max": "You have scored the maximum number of points"
+  }
+}

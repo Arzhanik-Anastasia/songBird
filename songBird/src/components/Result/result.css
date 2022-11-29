@@ -1,0 +1,11 @@
+.result__block {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    font-size: 36px;
+    margin: 60px 0 160px;
+}
+.result__block div {
+    font-size: 20px;
+}

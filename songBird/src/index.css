@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap);
+
+:root {
+  --color-html: #102527;
+  --color-main: #d5542b;
+  --color-question-block:#7f9f83;
+  --color-rounds-block: #f9b37e ;
+  --color-answer-block:#655f69 ;
+  --color-active-round:  #8293a3;
+  --btn-active:#7f9f83;
+  --btn-disabled:  #bebac3;
+  --correct-answer:#144933;
+  --wrong-answer: #c80012;
+  --color-select: #d5542b;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+html {
+  background-color: var(--color-html);
+  color: white;
+}
+body {
+/*   font-family: "League Spartan", sans-serif; */
+  font-family: 'Montserrat', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+.container {
+  max-width: 1260px;
+  margin: 10px auto;
+  padding: 0 30px;
+}
+.center__block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+.button {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 10px;
+  transition: all .4s ease-in-out;
+  background-image: linear-gradient(to right, #d5542b, #f15e64, #e14e53, #d5542b);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-position: 100% 0;
+  transition: all .4s ease-in-out;
+}
+
+.button:focus {
+  outline: none;
+}
+/* player */
+.rhap_container {
+  background-color: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
+.rhap_time {
+  font-size: 14px;
+  color: #fff;
+}
+
+.rhap_main-controls-button, .rhap_volume-button  {
+  color: var(--color-select);
+}
+
+.rhap_volume-indicator, .rhap_progress-indicator {
+  background:var(--color-select);
+  box-shadow: none;
+  position: absolute;
+  z-index: 5;
+}
+
+.rhap_additional-controls {
+  display: none;
+}

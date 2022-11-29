@@ -1,0 +1,11 @@
+
+.title {
+    font-family: "Mr Bedfort", cursive;
+    letter-spacing: 6px;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+  }
+  .title span {
+    color: var(--color-main);
+  }

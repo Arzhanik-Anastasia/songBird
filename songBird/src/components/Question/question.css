@@ -1,0 +1,46 @@
+
+.random__bird {
+    background-color:var(--color-question-block);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+  }
+  .random__bird-img {
+    width: 200px;
+    height: 155px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .random__bird-info {
+    padding: 0 40px;
+    width: calc(100% - 240px);
+  }
+  .random__bird-title {
+    width: 100%;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  
+  .random__bird-audio {
+    margin: 10px 40px 8px 0;
+    width: 100%;
+    min-width: 100px;
+  }
+  .random__bird-audio audio {
+    width: 100%;
+  }
+
+  @media (max-width: 600px) {
+    .random__bird {
+      flex-direction: column;
+      align-items: center;
+      gap:30px;
+    }
+    .random__bird-info {
+      padding: 0;
+      width: 100%;
+  }
+  }

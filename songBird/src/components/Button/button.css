@@ -1,0 +1,17 @@
+.btn-next {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    background-color: var(--btn-active);
+    height: 40px;
+    margin: 25px 0px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius:5px;
+  }
+  .btn-next:disabled {
+    background-color: var(--btn-disabled);
+    cursor: inherit;
+  }

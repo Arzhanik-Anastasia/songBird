@@ -1,0 +1,17 @@
+.footer {
+    background-image: url('./../../../public/assets/svg/bg-footer.svg');
+    height: 70px;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.footer-wrapper {
+    width: 100%;
+    max-width: 950px;
+    align-items: center;
+    height: 70px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
